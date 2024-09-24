@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with Photos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-color-purple">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Home.html">
+                        <img src="Images/vsv-logo.png" width="180" height="40" alt="" class="rounded-pill">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Admin.html">Administration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">Editorial</a>
+                            </li>
+                        </ul>
+                        <div class="dropdown text-end me-md-5">
+                            <button type="button" class="btn px-4 login-button">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main-content mb-5">
+            <section class="container hero-section p-4">
+                <div class="anniversary-content row">
+                    <div class="row flex-lg-row align-items-center px-4">
+                        <div class="col-12 col-lg-5">
+                            <img src="Images/20-years.png" class="d-block m-auto img-fluid mt-4" alt="Bootstrap Themes"
+                                width="250" height="250" loading="lazy">
+                        </div>
+                        <div class="col-lg-6 text-black text-center text-lg-start">
+                            <h2 class="display-7 fw-bold lh-1 mb-3">20 Years Of Excellence</h2>
+                            <p class="lead fw-bold">
+                                We are a registered body of 20 years old, founded in 2003. It is a very well-known and
+                                premier organization of Vishwakarma and represents the aims and aspirations of about
+                                Vishwakarma
+                                community living in Bengaluru and its suburbs. Vishwakarma Samaja Vedike is dedicated to
+                                the
+                                social,
+                                economic, educational and cultural enrichment of the people of Bengaluru.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="d-flex justify-content-center">
+                        <img src="Images/vsv-logo.png" alt="" class="rounded-pill vsv-logo">
+                    </div>
+                </div>
+            </section>
+            <div class="member-details px-2 py-4">
+                <div class="row mb-5">
+                    <div class="d-flex justify-content-center py-3 flex-wrap">
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2003-2005</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2005-2007</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2007-2009</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2009-2010</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2010-2011</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2011-2015</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2015-2016</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2016-2018</button>
+                        <button type="button" class="btn btn-accordion px-4 me-md-2 mb-2">2018-2022</button>
+                        <button type="button"
+                            class="btn btn-explore border-radius-25 px-3 me-md-2 m-2">2022-Present</button>
+                    </div>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item border-0 mb-4">
+                        <h2 class="accordion-header text-center">
+                            <button class="btn btn-lg collapsed btn-accordion w-300" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <span>Our Board Trustees</span>
+                                <i class="bi bi-arrow-down-circle-fill text-orange ms-2"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col d-flex justify-content-center">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/47.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ತ್ರಿವಿಕ್ರಮ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಅಧ್ಯಕ್ಷರು</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/33.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಧರ್ಮೇಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಗೌರವ ಅಧ್ಯಕ್ಷರು</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/43.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಮೋಹನ ಆಚಾರ್ಯ (ವಿಟ್ಲ)</h6>
+                                            <h6 class="text-orange">ಉಪಾಧ್ಯಕ್ಷರು ೧</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/19.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಸಂತೋಷ್ ಕುಮಾರ್ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಉಪಾಧ್ಯಕ್ಷರು ೨</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/46.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಕಲಾವಣಿ ಧರ್ಮೇಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಉಪಾಧ್ಯಕ್ಷರು ೩</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/15.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಯತೀಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಕಾರ್ಯದರ್ಶಿ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/10.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಭರತೇಶ್ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಉಪ ಕಾರ್ಯದರ್ಶಿ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/38.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ದೀಪಕ್ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಖಜಾಂಚಿ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/27.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ನಾಗೇಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಆಂತರಿಕ ಲೆಕ್ಕ ಪರಿಶೋಧಕರು</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/45.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಯೋಗಿತ ತ್ರಿವಿಕ್ರಮ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮ ನಿರ್ದೇಶಕರು</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-4">
+                        <h2 class="accordion-header text-center">
+                            <button class="btn btn-lg collapsed btn-accordion ps-3 w-300" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <span>Advisory Committee</span>
+                                <i class="bi bi-arrow-down-circle-fill text-orange ms-2"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/20.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ರಾಘವ ಆಚಾರ್ಯ (ಮಾಣಿಲ)</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/39.jpeg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಜನಾರ್ಧನ ಆಚಾರ್ಯ HMT</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/48.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಶಿವರಾಮ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/51.jpeg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಬಾಲಕೃಷ್ಣ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/44.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಜನಾರ್ಧನ ಆಚಾರ್ಯ (ಮೂವಜೆ)</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/14.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ವನಮಾಲಾ ಶ್ರೀಧರ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/28.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಮನೋಹರ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/35.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಪೂರ್ಣಿಮಾ ಗಣೇಶ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-4">
+                        <h2 class="accordion-header text-center">
+                            <button class="btn btn-lg collapsed btn-accordion ps-3 w-300" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <span>Committee Members</span>
+                                <i class="bi bi-arrow-down-circle-fill text-orange ms-2"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="row row-cols-1 row-cols-md-4 row-cols-lg-5 g-3">
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/24.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ವಿಶ್ವನಾಥ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/49.jpeg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಚಿದಾನಂದ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/26.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಗಣೇಶ ಆಚಾರ್ಯ (ಪೆರ್ಲ)</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/23.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ವೇಣುಗೋಪಾಲ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/5.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಮನು ಪ್ರಸಾದ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/12.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಸುನಿಲ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/13.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಅನ್ನಪೂರ್ಣ ಚಂದ್ರಹಾಸ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/36.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಗಾಯತ್ರಿ ಗಣೇಶ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/18.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಜಾನ್ಹವಿ ಗಣೇಶ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/6.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಕಿಶನ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/34.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಶರತ್ ಚಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/8.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಅನಂತ ಕಿರಣ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/32.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ರಾಜಲಕ್ಷ್ಮಿ ವಾಸುದೇವ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/37.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ವೈಶಾಖ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/9.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಅಮಿತ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/17.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಮಂಜುಳಾ ಸುನಿಲ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/16.jpeg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ರಾಮಕೃಷ್ಣ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/22.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ಪ್ರೇಮಲತಾ ವಿಶ್ವನಾಥ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/40.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ರವೀಶ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/7.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಅನಿಲ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/3.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಶಿವಪ್ರಸಾದ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/1.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ವಿನೀತ್ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/2.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಸುಧಾಕರ ಆಚಾರ್ಯ (ದರ್ಬೆ)</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/11.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀಮತಿ ವಿಜಯಕಲಾ ಸುಧಾಕರ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/4.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಮೋಹನ ಆಚಾರ್ಯ (ಹೊಸಕೆರೆಹಳ್ಳಿ)</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/50.jpeg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ತಾರಾನಾಥ ಆಚಾರ್ಯ</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-4">
+                        <h2 class="accordion-header text-center">
+                            <button class="btn btn-lg collapsed btn-accordion w-300" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <span>Past Presidents</span>
+                                <i class="bi bi-arrow-down-circle-fill text-orange ms-5"></i>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/41.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಕೆ ಶ್ರೀಧರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">2003-2007</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/42.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಪಿ ಹರಿಶ್ಚಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">2007-2010</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/20.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ರಾಘವ ಆಚಾರ್ಯ ಮಾಣಿಲ</h6>
+                                            <h6 class="text-orange">2010-2011</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/33.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಧರ್ಮೇಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">2011-2015</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/21.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ವಸಂತಕುಮಾರ್ ಕುಂಬ್ಳೆ</h6>
+                                            <h6 class="text-orange">2015-2016</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/44.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಜನಾರ್ಧನ ಆಚಾರ್ಯ (ಮೂವಜೆ)</h6>
+                                            <h6 class="text-orange">2016-2018</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex flex-fill justify-content-around">
+                                        <div class="card border-0 p-2 text-center">
+                                            <img src="Committe-members/34.jpg" width="150" height="150" alt=""
+                                                class="m-auto my-2 member-image">
+                                            <h6>ಶ್ರೀ ಶರತ್ ಚಂದ್ರ ಆಚಾರ್ಯ</h6>
+                                            <h6 class="text-orange">2018-2022</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="expect-from-you py-2">
+                <h2 class="text-center display-5 fw-bold pb-2 text-yellow">What Does VSV-B Expect From You?</h2>
+                <h5 class="text-center display-7 pb-4">
+                    We encourage and develop leadership qualities among the Vishwakarma youth and to provide them<br>
+                    opportunities to help promote the social, educational and cultural advancement of the community
+                    in<br>
+                    furtherance of the aims and objectives of the Sangha.
+                </h5>
+                <div class="text-center">
+                    <a href="https://tinyurl.com/VSV-Profile">
+                        <button type="button" class="btn btn-register px-4 me-md-2">Register Now</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+            <div
+                class="container-fluid d-flex flex-column flex-sm-row align-items-center justify-content-between border-top">
+                <h4>Contact Us</h4>
+                <h4><i class="bi bi-envelope fs-3"></i> vsvbengaluru@gmail.com </h4>
+                <h4><i class="bi bi-whatsapp fs-3"></i> 9742440733</h4></h4>
+                
+                <ul class="list-unstyled d-flex mt-2">
+                    <li class="mx-4"><a class="link-body-emphasis" href="https://www.facebook.com/people/Vishwakarma-Samaja-Vedike-Bengaluru/100086118788549/"><i class="bi bi-facebook fs-3"></i></a>
+                    </li>
+                    <li class="mx-4"><a class="link-body-emphasis" href="https://www.instagram.com/vsvbengaluru?igsh=MTJuazU0MjJpemp3OQ=="><i class="bi bi-instagram fs-3"></i></a>
+                    </li>
+                </ul>
+                <h6 class="text-center">© 2024 VSV, Bengaluru. All rights reserved.</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

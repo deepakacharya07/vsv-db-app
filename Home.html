@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-color-purple">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Home.html">
+                        <img src="Images/vsv-logo.png" width="180" height="40" alt="" class="rounded-pill">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Admin.html">Administration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="nav-item"></li>
+                            <a class="nav-link" href="#">Editorial</a>
+                            </li>
+                        </ul>
+                        <div class="dropdown text-end me-md-5">
+                            <button type="button" class="btn px-4 login-button">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main-content">
+            <div class="sub-header row border-bottom py-3">
+                <div class="w-75">
+                    <marquee>
+                        <h5>ವಿಶ್ವಕರ್ಮ ಪೂಜೆ ಮತ್ತು ವಾರ್ಷಿಕ ಸಭೆಯು 22-09-2024 ಭಾನುವಾರದಂದು 7.30 ರಿಂದ ಗಿರಿನಗರದ ಶ್ರೀ ಮಹಾಗಣಪತಿ
+                            ದೇವಸ್ಥಾನದಲ್ಲಿ ನಡೆಯಲಿದೆ.</h5>
+                    </marquee>
+                </div>
+                <div class="w-25 text-end pe-4">
+                    <a href="#" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>English</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-content row pb-5">
+                <div class="row flex-lg-row align-items-center py-2">
+                    <div class="col-lg-7 ps-5 text-white align-top text-center text-lg-start">
+                        <h2 class="fw-bolder lh-1 mb-2 text-yellow">UNLOCK THE</h2>
+                        <h1 class="fw-bolder lh-1 mb-2 text-yellow">WORLD OF BENEFITS</h1>
+                        <p class="lead">
+                            Welcome to Vishwakarma Samaja Vedike Bengaluru!<br>
+                            Discover the vibrant community of Vishwakarma Samaja in Bengaluru, where tradition meets
+                            progress.
+                            Explore our diverse range of services, resources and events tailored to our community's
+                            needs.
+                            Join us in celebrating our heritage and shaping our future.
+                        </p>
+                        <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start">
+                            <a href="https://tinyurl.com/VSV-Profile">
+                                <button type="button" class="btn btn-register px-4 me-md-2">Register Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-lg-5 mb-3">
+                        <img src="Images/Vishwakarma.png" class="d-block img-fluid" alt="Bootstrap Themes"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <div class="anniversary-content row">
+                <div class="row flex-lg-row align-items-center py-3">
+                    <div class="col-12 col-sm-8 col-lg-4 p-3">
+                        <img src="Images/20-years.png" class="d-block img-fluid w-75 m-auto" alt="Bootstrap Themes"
+                            loading="lazy">
+                    </div>
+                    <div class="col-lg-8 mt-2 text-center text-lg-start">
+                        <h2 class="display-7 fw-bold text-body-emphasis lh-1 mb-3">20 Years Of Excellence</h2>
+                        <p class="lead">
+                            We are a registered body of 20 years old, founded in 2003. It is a very well-known and
+                            premier organization of Vishwakarma and represents the aims and aspirations of about
+                            Vishwakarma
+                            community living in Bengaluru and its suburbs. Vishwakarma Samaja Vedike is dedicated to the
+                            social,
+                            economic, educational and cultural enrichment of the people of Bengaluru.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content row my-5">
+                <h2 class="pb-4 text-center  border-bottom display-6 fw-bold text-body-emphasis">Explore the world of
+                    opportunities</h2>
+                <div class="row g-3 py-3 row-cols-1 row-cols-lg-5">
+                    <div class="col">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center">Education</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/education-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center card-body">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center">Healthcare</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/healthcare-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center card-body">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center">Career</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/career-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center card-body">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center">Start-Ups</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/start-up-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center card-body">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center px-2">Women Empowerment</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/women-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3 px-3">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center px-2">Matrimony</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/matrimony-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3 px-3">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center px-2">Connect</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/contact-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3 px-3">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center px-2">Sports & Culture</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/sports-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3 px-3">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card py-3 bg-light bg-gradient">
+                            <h4 class="text-center px-2">Social Welfare</h4>
+                            <div class="justify-content-center m-auto">
+                                <img src="Images/social-icon.png" width="100" height="100"
+                                    class="rounded-circle d-block mx-lg-auto img-fluid">
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-3 px-3">
+                                <button type="button" class="btn btn-explore px-4 me-md-2">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="community-achievers row text-center text-lg-start">
+                <div class="row flex-lg-row-reverse align-items-center py-5">
+                    <div class="col-12 col-lg-5">
+                        <div id="myCarousel" class="carousel slide mb-6 p-2" data-bs-ride="carousel">
+                            <div class="carousel-indicators mb-0">
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+                                    aria-label="Slide 1" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3" class=""></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"
+                                    aria-label="Slide 4" class=""></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"
+                                    aria-label="Slide 5" class=""></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5"
+                                    aria-label="Slide 6" class=""></button>
+                                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6"
+                                    aria-label="Slide 7" class=""></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 border-radius-25" src="Images/K_Sridhar_Achar.jpg"
+                                        alt="First slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#shreedharaAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25" src="Images/Sudakar_Acharya.jpg"
+                                        alt="Second slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#sudhakarAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25" src="Images/Subramanya_Acharya.jpg"
+                                        alt="Third slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#subramanyaAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25" src="Images/Chandranath_Acharya.jpg"
+                                        alt="Fourth slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#chandranathaAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25" src="Images/Manohar_Acharya.jpg"
+                                        alt="Fifth slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#manoharAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25" src="Images/Ganesh_Kasaragod.jpg"
+                                        alt="Sixth slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#ganeshKsgdModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 border-radius-25"
+                                        src="Images/Chidananda_Acharya_Moovaje.jpg   " alt="Seventh slide">
+                                    <div class="container">
+                                        <div class="carousel-caption mb-4">
+                                            <p><a class="btn btn-explore" data-bs-toggle="modal"
+                                                    data-bs-target="#chidanandaAchModal">Know More</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                                <i class="bi bi-caret-left-fill fs-3 text-primary"></i>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                                <i class="bi bi-caret-right-fill fs-3 text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 mt-2">
+                        <h2 class="display-7 fw-bold text-body-emphasis lh-1 mb-3">Celebrating Community Achievers</h2>
+                        <p class="lead">
+                            At Vishwakarma Samaja, we take immense pride in the remarkable achievements of our community
+                            members.
+                            Our community has been home to numerous individuals, who have excelled in various fields and
+                            made us proud. These successful personalities not only embody the values and spirit of our
+                            community but also serve as a source of inspiration for all of us.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal fade" id="shreedharaAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/K_Sridhar_Achar.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Sridhara Achar</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Sridhara Achar was a veteran Kannada journalist whose career spanned
+                                                nearly 45 years, making significant
+                                                contributions to journalism in Karnataka. He began his journey with
+                                                Navabharatha in Mangalore in 1965 and later
+                                                moved to Bangalore, where he worked in various roles at Prajavani, one
+                                                of the leading Kannada dailies. After
+                                                retiring from Prajavani, he briefly worked with Samyukta Karnataka
+                                                before becoming the editor of the evening
+                                                newspaper Sakshath Sudhi.<br><br>
+                                                Beyond journalism, Achar also played a crucial role in community and
+                                                educational initiatives. He served as the
+                                                first president of the Vishwakarma Samaja Vedike in Bangalore, where he
+                                                worked to unite and uplift the
+                                                Vishwakarma community. Additionally, he was a founding member of the
+                                                Vidhya Vardhaka Sangha, an organization
+                                                focused on promoting education and social welfare. His leadership and
+                                                dedication in these fields demonstrated
+                                                his broader commitment to societal development, making him a respected
+                                                figure both in journalism and community
+                                                service.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="sudhakarAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Sudakar_Acharya.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Sudhakar Darbe</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Sudhakar Darbe, son of K. Gopala Acharya and Meenakshi, hails from
+                                                Puttur, Dakshina Kannada, and is a B.Com graduate from St. Philomena’s,
+                                                Puttur. He began his artistic career in 1986 with the weekly Manvantara
+                                                and later worked with political weeklies like Aarambha and Prajamaata.
+                                                In 1991, he joined Kannada Prabha, where he has been working for over 33
+                                                years, currently serving as the Chief Artist.<br><br>
+
+                                                Darbe has created over 5,000 book covers for notable Kannada literary
+                                                works and designed illustrations, caricatures, and special features for
+                                                Kannada Prabha, Indian Express, and the English monthly Gentleman. He
+                                                has also contributed to popular TV shows and publications with his
+                                                artwork.<br><br>
+
+                                                His achievements include the Karnataka Media Academy Award (2019),
+                                                Kempegowda Award (2016), and the “Publishing Next Book Cover of the
+                                                Year” award for Kere-DaDa (2023). Sudhakar Darbe’s work has earned him
+                                                widespread recognition in media and literature, establishing him as a
+                                                prominent artist and designer in Kannada journalism.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="subramanyaAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Subramanya_Acharya.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Subramanya Badoor</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Renowned Kannada film journalist Badoor N Subramanya, affectionately
+                                                known as Subbanna, has been honored with the prestigious national award
+                                                in the critics category for his remarkable 43-year contribution. His
+                                                dedication to the Mysuru-based ‘Andolana’ daily newspaper has earned him
+                                                this recognition.<br>
+                                                The Ministry of Information under the Government of India announced the
+                                                69th National Awards on Thursday evening. For B N Subramanya, this
+                                                signifies the receipt of a certificate at the national awards ceremony.
+                                                At the age of over 70, BN Subramanya’s reception of the highest award
+                                                has brought immense joy to film journalists everywhere. He also holds
+                                                the position of Honorary President of the Karnataka Chalanachitra
+                                                Patrakartara Sangha and boasts an extensive background as a committee
+                                                member for state and national awards.<br>
+                                                Originally a lecturer, BN Subramanya ventured into journalism through
+                                                ‘Chitradeepa’ in the 1970s. His journey led him to contribute to various
+                                                publications like Chitratara, Samyuktha Karnataka, Karmaveera,
+                                                Janavaahini, and he currently serves as a columnist for the Mysuru
+                                                Andolana daily newspaper.<br>
+                                                His acclaimed column, ‘Wide Angle,’ is characterized by fearless and
+                                                unbiased writing. Subramanya submitted a selection of nine articles from
+                                                his ‘Wide Angle’ column, published in both Andolana and its English
+                                                version, for consideration in the National Film Awards.<br>
+                                                While previous recipients of the national award like NK Raghavendra and
+                                                Manu Chakravarthy were not film journalists, BN Subramanya becomes the
+                                                pioneer in this regard. The category he triumphed in was established in
+                                                1984 by the National Film Awards Committee.<br>
+                                                From Vishwakarma Samaja Vedike Bengaluru, we extend our heartfelt
+                                                congratulations to our esteemed community member, B N Subramanya, for
+                                                this prestigious award.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="chandranathaAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Chandranath_Acharya.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Chandranath Acharya</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Chandranath Acharya was born in Puttur, Karnataka. He received his
+                                                Diploma in Painting and Drawing in 1973 and
+                                                his Post-Diploma in Graphics from Shantiniketan in 1981. He has received
+                                                numerous awards including the Karnataka
+                                                State Lalit Kala Academy award in 1979 & 1998 and the Kannada Rajyotsava
+                                                Award in 2008. Chandranath has held
+                                                seven solo shows in India and has been a part of several important group
+                                                shows in India such as the National
+                                                Exhibition of Art, Delhi in 1979, 1980, 1983 & 1984, and also the ’50
+                                                years of Independence’ exhibition, Delhi
+                                                in 1997.<br>
+                                                He has also been a part of group shows in Singapore, Hong Kong,
+                                                Johannesburg and London. He has
+                                                participated in numerous artist camps and workshops both in India and
+                                                abroad.<br>
+                                                His paintings depict Royal personages living in a fantasy world of
+                                                unfulfilled dreams and a false sense of
+                                                achievement. Playful portrayals, teasing historical references mixed
+                                                with royalty’s penchant for kitsch, jostle
+                                                each other for space on his canvasses. He lives and works in Bangalore.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="manoharAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Manohar_Acharya.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">K.Manohara Acharya</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                K.Manohara Acharya, Founder MD, Creative Head- MAZ FOUNDATION.
+                                                Self-made man
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="ganeshKsgdModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Ganesh_Kasaragod.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Ganesh Kasargod</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Ganesh Kasargod, son of Dharmasthala Subraaya Achar and U Shambavi,
+                                                holds an MA in Kannada and Literature. He has extensive experience in
+                                                journalism, having worked for major Kannada publications. His career
+                                                includes stints at Vijaya Karnataka (6 years), Samyukta Karnataka (10
+                                                years), Karmaveera (3 years), Abhimaani Prakashana (4 years),
+                                                Chitrataara (2 years), Chitra Deepa (2 years), and contributions to
+                                                several other outlets like Hi Bengaluru, Mangala, Aandolana, and
+                                                Raichuru Vaani.<br><br>
+
+                                                Ganesh has received numerous awards, including the Karnataka Rajya
+                                                Chalanachitra Sahitya Academy Prasasthi, Karnataka Rajya Maadyama
+                                                Prashasti, YNK Saahitya Prashasti, and many others.<br><br>
+
+                                                His literary works include Chadurida Kanasugalu, Mouna Maatadaga, Nooru
+                                                Chitragalu Nooraru Nenapugalu, Off the Record, and Face 2 Face, among
+                                                others. He has also contributed to several television shows, such as
+                                                Chadurida Chitragalu and Banna Massima Baduku.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="chidanandaAchModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <img class="d-block rounded w-100" src="Images/Chidananda_Acharya_Moovaje.jpg">
+                                    </div>
+                                    <div class="col-sm-7 pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                        </a>
+                                        <h4 class="text-white">Chidananda Acharya Moovaje</h4>
+                                        <hr>
+                                        <div class="achiever-content">
+                                            <p class="lead">
+                                                Shilpi Chidananda Acharya Moovaje, Shilpi and Teacher in Traditional
+                                                Sculpture
+                                                Mr. Chidananda Acharya Moovaje, a revered sculptor and teacher
+                                                specializing in traditional sculpture, hails from
+                                                Moovaje. Son of M. Gopala Acharya and Pushpa, he holds a BVA in
+                                                Traditional Sculpture and Temple Architecture.
+                                                With two decades of experience in this field, Chidananda Acharya has
+                                                left his mark on numerous projects.
+                                                Notably, he was part of the prestigious team involved in the
+                                                construction of the "Raam Lalla" idol, a project of
+                                                great significance. His expertise and dedication have earned him
+                                                recognition in the realm of traditional
+                                                sculpture and temple architecture.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-with-us row py-4 bg-color-purple my-5">
+                <h2 class="text-center display-4 fw-bold pb-2 text-yellow">Connect with our VSV Members</h2>
+                <h5 class="text-center display-7 fw-bold pb-4 text-white">Find the course details, Degree specifics and
+                    Additional Information</h5>
+
+                <form class="needs-validation" novalidate=""></form>
+                <div class="row g-1 mb-4 px-5">
+                    <div class="col-md-5">
+                        <label for="country" class="form-label text-white">Name of the person :</label>
+                        <select class="form-select" id="country" required="">
+                            <option value="">Thrivikrama Acharya</option>
+                            <option>Dharmendra Acharya</option>
+                            <option>Yathindra Acharya</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="state" class="form-label text-white">Locality :</label>
+                        <select class="form-select" id="state" required="">
+                            <option value="">Girinagara</option>
+                            <option>Basavanagudi</option>
+                            <option>Malleshwaram</option>
+                            <option>Indiranagar</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-3 pt-4">
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-explore btn-lg px-4 me-md-2">Search Now</button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="social-media row text-center text-lg-start my-5">
+                <div class="row flex-lg-row align-items-center py-4">
+                    <div class="col-lg-7">
+                        <h2 class="display-7 fw-bold text-body-emphasis lh-1 mb-3">Connect with Our Social Media
+                            Channels</h2>
+                        <p class="lead">
+                            Our Social Media Channel, where we share our valuable content and insights. Subscribe and
+                            follow
+                            to stay updated and engaged with our community. Dont miss out on the latest videos,
+                            interviews,
+                            tutorials and more.
+                        </p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3">
+                                <a href="https://www.youtube.com/@VSV-Bengaluru">
+                                    <img src="Images/Youtube.png" alt="mdo" width="60" height="60">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="https://www.instagram.com/vsvbengaluru?igsh=MTJuazU0MjJpemp3OQ==">
+                                    <img src="Images/Instagram.png" alt="mdo" width="60" height="60">
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a
+                                    href="https://www.facebook.com/people/Vishwakarma-Samaja-Vedike-Bengaluru/100086118788549/">
+                                    <img src="Images/Facebook.png" alt="mdo" width="60" height="60">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="upcoming-events my-5">
+                <h2 class="display-7 fw-bold text-body-emphasis lh-1 mb-5 text-center text-lg-start">Upcoming Events
+                </h2>
+                <div class="row">
+                    <div class="col-lg-5 align-items-between border rounded py-4 m-auto event-card">
+                        <div class="d-flex">
+                            <span class="px-4">
+                                <h1>22</h1>
+                                <h5>SEPT</h5>
+                            </span>
+                            <div class="p-3">
+                                <h6>NEXT EVENTS&nbsp; &nbsp; .........</h6>
+                                <h4>Vishwakarma Pooje</h4>
+                            </div>
+                            <a class="btn m-auto" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <h1>
+                                    <i fill="currentColor" class="bi bi-arrow-right-circle-fill"></i>
+                                </h1>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="collapse multi-collapse" id="collapseExample1">
+                                <div class="card card-body event-card border-0 p-0">
+                                    <div class="d-flex py-1">
+                                        <span class="px-4">
+                                            <h5>Time:</h5>
+                                            <h5>Venue:</h5>
+                                        </span>
+                                        <div class="">
+                                            <h5>8 am</h5>
+                                            <h5>Shree Mahaganapathi Temple<br>19th Main Road, Girinagar<br>Bengaluru -
+                                                560085</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 align-items-between border rounded py-4 m-auto event-card">
+                        <div class="d-flex">
+                            <span class="mx-4">
+                                <h1>22</h1>
+                                <h5>SEPT</h5>
+                            </span>
+                            <div class="p-3">
+                                <h6>NEXT EVENTS&nbsp; &nbsp; .........</h6>
+                                <h4>VSV Website Launch</h4>
+                            </div>
+                            <a class="btn m-auto" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <h1>
+                                    <i fill="currentColor" class="bi bi-arrow-right-circle-fill"></i>
+                                </h1>
+                            </a>
+                        </div>
+                        <div>
+                            <div class="collapse multi-collapse" id="collapseExample2">
+                                <div class="card card-body event-card border-0 p-0">
+                                    <div class="d-flex py-1">
+                                        <span class="mx-4">
+                                            <h5>Time:</h5>
+                                            <h5>Venue:</h5>
+                                        </span>
+                                        <div class="">
+                                            <h5>12.30 pm</h5>
+                                            <h5>Shree Mahaganapathi Temple<br>19th Main Road, Girinagar<br>Bengaluru -
+                                                560085</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div
+                class="container-fluid d-flex flex-column flex-sm-row align-items-center justify-content-between border-top">
+                <h4>Contact Us</h4>
+                <h4><i class="bi bi-envelope fs-3"></i> vsvbengaluru@gmail.com </h4>
+                <h4><i class="bi bi-whatsapp fs-3"></i> 9742440733</h4>
+                </h4>
+
+                <ul class="list-unstyled d-flex mt-2">
+                    <li class="mx-4"><a class="link-body-emphasis"
+                            href="https://www.facebook.com/people/Vishwakarma-Samaja-Vedike-Bengaluru/100086118788549/"><i
+                                class="bi bi-facebook fs-3"></i></a>
+                    </li>
+                    <li class="mx-4"><a class="link-body-emphasis"
+                            href="https://www.instagram.com/vsvbengaluru?igsh=MTJuazU0MjJpemp3OQ=="><i
+                                class="bi bi-instagram fs-3"></i></a>
+                    </li>
+                </ul>
+                <h6 class="text-center">© 2024 VSV, Bengaluru. All rights reserved.</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
